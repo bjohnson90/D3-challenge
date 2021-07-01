@@ -169,7 +169,7 @@ d3.csv("assets/data/data.csv").then(function (censusData, err) {
     .attr("cx", d => xScale(d[currXAxis]))
     .attr("cy", d => yScale(d[currYAxis]))
     .attr("r", 10)
-    .attr("fill", "#E6E6FA");
+    .attr("fill", "#B57EDC");
 
     circles.append("text")
     .attr("x", d => xScale(d[currXAxis]))
